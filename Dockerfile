@@ -1,4 +1,4 @@
-FROM nginx/nginx:1.10
+FROM nginx:1.18
 
 RUN apt-get clean 
 RUN apt-get update 
